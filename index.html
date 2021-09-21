@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java Script</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+
+<body>
+    <header>
+        <span class="up">My previous Webpages :- &nbsp;</span>
+        <a class="up" href="first.html" target="_blank">About_Me</a>&nbsp;&nbsp;&nbsp;
+        <a class="up" href="favbooks.html" target="_blank">My_fav_Books</a>
+    </header>
+    <section class="parent">
+
+        <!-- <div>
+            <textarea id="Feedbackshow" type="text" style="height:50px;width:100%">hello</textarea><br>
+        </div> -->
+
+        <section class="divide1">
+            <main>
+                <form action="index.html" onsubmit="return false">
+                    <p id="feedback_heading">Feedback</p>
+                    <table>
+                        <tr>
+                            <td>
+                                First Name:
+                            </td>
+                            <td>
+                                <input id="fname" id="lname" type="text" placeholder=" First Name">
+                            </td>
+                        </tr>
+                        <br>
+                        <tr>
+                            <td>
+                                Mid.Name:
+                            </td>
+                            <td>
+                                <input id="mname" type="text" placeholder="Middle Name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Last Name:
+                            </td>
+                            <td>
+                                <input id="lname" type="text" placeholder="Last Name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Suggestion:
+                            </td>
+                            <td>
+                                <input id="sugges" type="text" placeholder="Suggestion">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Gender:
+                            </td>
+                            <td>
+                                <input type="radio" name="gender" value="Mr." required>Male
+                                <input type="radio" name="gender" value="Ms." required>Female
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <span><input type="Submit" onclick="takedetails()" value="SUBMIT" name=""></span>
+                            </td>
+                            <td>
+                                <span><input type="Submit" onclick="empty()" value="RESET" name=""></span>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </main>
+
+        </section>
+        <section class="divide2">
+            <div>
+                <textarea id="Feedbackshow" type="text" style="height:500px;width:100%">hello</textarea>
+            </div>
+        </section>
+    </section>
+    <script src="feedback.js"></script>
+    <footer id="last">
+        <p>
+            <strong><br><h2 text align-center>Created By : Vishal Kumar Rao,Copyright@2021</h2>
+        </p>
+    </footer>
+</body>
+
+</html>
